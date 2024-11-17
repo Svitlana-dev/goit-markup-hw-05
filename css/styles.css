@@ -729,19 +729,6 @@ input[type="checkbox"]:checked + .checkbox-label .check {
   fill: #f4f4fd;
 }
 
-.modal-checkbox .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .input-container {
   position: relative;
   display: flex;
@@ -749,10 +736,6 @@ input[type="checkbox"]:checked + .checkbox-label .check {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   margin-bottom: 15px;
-}
-
-.input-container:focus-within {
-  border-color: #4d5ae5;
 }
 
 .modal-svg {
@@ -765,17 +748,6 @@ input[type="checkbox"]:checked + .checkbox-label .check {
 
 .modal-input:focus + .modal-svg {
   fill: #4d5ae5;
-}
-
-.input-container:focus-within .modal-svg {
-  fill: #4d5ae5;
-}
-
-.input-icon {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .checkbox-label {
@@ -809,14 +781,6 @@ input[type="checkbox"]:checked + .checkbox-label .check {
 .policy {
   display: inline;
   color: #4d5ae5;
-}
-
-.checkbox-input {
-  margin-right: 8px;
-  border-radius: 2px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  width: 16px;
-  height: 16px;
 }
 
 .submit {
