@@ -683,6 +683,7 @@ img {
 
 .modal-info {
   margin-bottom: 8px;
+  width: 100%;
 }
 
 .modal-commemt {
@@ -736,6 +737,8 @@ input[type="checkbox"]:checked + .checkbox-label .check {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   margin-bottom: 15px;
+  height: 40px;
+  width: 360px;
 }
 
 .modal-svg {
@@ -754,8 +757,6 @@ input[type="checkbox"]:checked + .checkbox-label .check {
   display: flex;
   align-items: center;
   font-size: 12px;
-  margin-bottom: 15px;
-  text-align: left;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
